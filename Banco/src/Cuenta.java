@@ -1,8 +1,11 @@
 public class Cuenta {
     private double saldo = 0;
 
+    public Cuenta() {
+        this.saldo = 0;
+    }
     public double getSaldo() {
-        return saldo;
+        return this.saldo;
     }
 
     public void setDepositar(double cantidad) {
